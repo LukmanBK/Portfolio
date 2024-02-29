@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about-section {
+    background-image: url("../../assets/blurry_background.png");
+    background-position: 0 -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .about-content {
+    animation: fadeIn 1s ease-out;
+    background: rgba(153, 156, 231, 0.9); 
+    text-align: center;
+    width: 80%; 
+    max-width: 600px; 
+    font-family: 'Kaushan', sans-serif;
+ }
+  
+  .subtitle {
+    font-weight: bold;
+    font-size: 1.2rem; 
+    color: #fff; 
+    margin: 0 0 1rem 0;
+  }
+  
+  @media (max-width: 920px) {
+    .about-section {
+      background-position: 0% 33%;
+      height: 650px;
+    }
+  
+    .about-content {
+      position: relative;
+      width: auto;
+      margin: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  
