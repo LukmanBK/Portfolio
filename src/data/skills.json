@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "HTML",
+        "title": "HTML",
+        "img": "/img/icons-skills/logo-html.webp"
+      },
+      {
+        "id": "2",
+        "name": "CSS",
+        "title": "CSS",
+        "img": "/img/icons-skills/logo-css.webp"
+      },
+    {
+      "id": "3",
+      "name": "JavaScript",
+      "title": "Javascript",
+      "img": "/img/icons-skills/logo-javascript.webp"
+    },
+  
+    {
+      "id": "4",
+      "name": "React",
+      "title": "React",
+      "img": "/img/icons-skills/logo-react.webp"
+    },
+  
+    {
+      "id": "5",
+      "name": "Node js",
+      "title": "Node js",
+      "img": "/img/icons-skills/logo-nodejs.webp"
+    },
+  
+    {
+      "id": "6",
+      "name": "Redux",
+      "title": "Redux",
+      "img": "/img/icons-skills/logo-redux.webp"
+    },
+
+    {
+        "id": "7",
+        "name": "Sass",
+        "title": "Sass",
+        "img": "/img/icons-skills/logo-sass.png"
+      },
+    {
+      "id": "8",
+      "name": "Vs code",
+      "title": "Visual Studio Code",
+      "img": "/img/icons-skills/logo-vscode.webp"
+    }
+  
+   
+  ]

@@ -1,0 +1,84 @@
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 40px;
+  background: #155568;
+}
+
+.skills-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Kaushan Script", cursive;
+  color: #ffd59d;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 850px;
+  margin: 20px;
+}
+
+.skill-card {
+  width: 72px;
+  height: 72px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.skill-image-container {
+  position: relative;
+  width: 72px;
+  height: 72px;
+}
+
+.skill-image {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.skill-description {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.skill-card:hover .skill-description {
+  opacity: 1;
+}
+
+.skill-card:hover .skill-image {
+  transform: rotateY(180deg);
+}
+
+.skill-card:hover .skill-description {
+  transform: rotateY(360deg);
+}
+
+.skill-text {
+  color: #000000;
+  text-align: center;
+}
+
+.skill-image,
+.skill-description {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.6s linear;
+}
