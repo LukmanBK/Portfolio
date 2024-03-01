@@ -24,20 +24,34 @@
     
   }
   
-  .about-content {
-    animation: fadeIn 1s ease-out;
-    background: rgba(153, 156, 231, 0.9); 
-    text-align: center;
-    width: 80%; 
-    max-width: 600px; 
-    font-family: 'Kaushan Script', cursive;
- }
+
+    .about-content {
+      animation: fadeIn 1s ease-out;
+      background: linear-gradient(135deg, rgba(153, 156, 231, 0.9), rgba(233, 233, 255, 0.9)); 
+      text-align: center;
+      width: 80%; 
+      max-width: 600px; 
+      font-family: 'Kaushan Script', cursive;
+      padding: 20px; 
+      border-radius: 15px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-content:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .sr-only h2 {
+    margin-top: 0.5rem
+  }
   
   .subtitle {
     font-weight: bold;
     font-size: 1.2rem; 
     color: #fff; 
-    margin: 0 0 1rem 0;
+    margin-top: 2.5rem;
   }
   
   @media (max-width: 920px) {
@@ -50,6 +64,7 @@
       position: relative;
       width: auto;
       margin: 2rem;
+      padding: 10px;
     }
   
     .subtitle {

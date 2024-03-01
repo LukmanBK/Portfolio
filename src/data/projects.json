@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1",
+    "title": "Nina Carducci",
+    "client": "Nina Carducci, phototgraphe professionnelle",
+    "presentation": "Le site web de Nina Carducci, une photographe de portraits et d'événements, vise à exposer son travail et ses œuvres photographiques.",
+    "overview": "Les mises à jour du site ont amélioré sa performance, réduit les temps de chargement et renforcé sa présence sur les moteurs de recherche grâce à l'optimisation d'images, la refonte de code, l'amélioration du SEO, et l'utilisation de Schema.org et Rich Snippets. L'accessibilité a également été améliorée, ce qui a augmenté la fluidité de l'expérience utilisateur et élevé la visibilité en ligne.",
+    "github": "https://github.com/LukmanBK/Projet_9",
+    "tags": [
+      "Optimisation web",
+      "SEO",
+      "Référencement local",
+      "Rich Snippet",
+      "Wave",
+      "Lighthouse",
+      "Accessibilité"
+    ],
+    "img_cover": "img/cover/nina-carducci.webp"
+  },
+
+  {
+    "id": "2",
+    "title": "724events",
+    "client": "L'agence évènementielle 724events.",
+    "presentation": "724events, une agence événementielle, avait lancé une refonte cruciale de son site vitrine. Après la validation du design, un développeur freelance a été recruté pour l'intégration, mais il a dû quitter le projet en cours. J'ai relevé le défi de résoudre les problèmes techniques et d'optimiser le site pour répondre pleinement aux besoins de l'agence.",
+    "overview": "Ma mission a été d'effectuer un débogage complet et d'optimiser le site web de 724events. Je devais identifier les problèmes techniques qui entravaient les performances du site. Mon objectif était de garantir que le site soit fluide et réactif pour les visiteurs. Pour atteindre cet objectif, j'ai utilisé des tests unitaires et React Dev Tools pour vérifier chaque composant du site, analyser et optimiser le code React et cibler les zones spécifiques nécessitant des améliorations. Puis j'ai finalisé le cahier de recette, créant des scénarios détaillés pour vérifier que chaque fonctionnalité du site fonctionnait comme prévu. Mon travail a permis d'assurer que le site réponde aux normes de qualité les plus élevées, offrant ainsi une expérience optimale aux utilisateurs.",
+    "github": "https://github.com/LukmanBK/Projet_10",
+    "tags": ["Débogage", "Optimisation", "Tests Unitaires", "React Dev Tools"],
+    "img_cover": "img/cover/724event.webp"
+  },
+  {
+    "id": "3",
+    "title": "ArgentBank",
+    "client": "Banque en ligne qui souhaite évoluer dans le secteur bancaire",
+    "presentation": "En tant que développeur front-end chez Argent Bank, ma mission était de créer un tableau de bord utilisateur avec un système d'authentification en utilisant React et Redux. À partir d'une maquette existante en HTML/CSS.",
+    "overview": "En tant que membre de l'équipe Argent Bank, j'ai joué un rôle central dans la mise en place de l'authentification utilisateur avec JWT (JSON Web Tokens) et Axios pour des appels API sécurisés. J'ai également dirigé la gestion des données via Redux, en permettant notamment aux utilisateurs de récupérer leurs informations en se connectant mais également pouvoir en modifier certaines s'ils le souhaitent. L'utilisation de Swagger a facilité la conception et la documentation des API, accélérant le développement de nouvelles fonctionnalités et renforçant la sécurité, les performances et l'expérience utilisateur dans l'application Argent Bank. Mon rôle comprenait aussi la définition des routes pour les transactions dans l'éditeur de Swagger, ce qui impliquait de choisir les méthodes HTTP appropriées. J'ai également suivi les principes du Green Code en optimisant les images pour améliorer les performances de l'application et en créant des composants réutilisables pour favoriser les bonnes pratiques de développement.",
+    "github": "https://github.com/LukmanBK/Projet-11",
+    "tags": [
+      "React",
+      "Redux",
+      "Green Code",
+      "Axios",
+      "JWT",
+      "MongoDB",
+      "Swagger"
+    ],
+    "img_cover": "img/cover/argent-bank.webp"
+  },
+  {
+    "id": "4",
+    "title": "Sophie Bluel",
+    "client": "Agence ArchiWebos",
+    "presentation": "En tant que développeur front-end, j'ai aidé une équipe à finaliser le nouveau site internet d'une architecte d'intérieur. J'étais chargée de développer plusieurs fonctionnalités clés pour le site.",
+    "overview": "Mon rôle a inclus la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux. Tout au long du projet, nous avons utilisé un tableau Kanban détaillé pour organiser notre travail de manière efficace.",
+    "github": "https://github.com/LukmanBK/Projet_6",
+    "tags": [
+      "Node.js",
+      "Figma",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "JWT",
+      "Swagger"
+    ],
+    "img_cover": "img/cover/sophie-bluel.webp"
+  },
+  {
+    "id": "5",
+    "title": "Kasa",
+    "client": "startup spécialisée dans la location d'appartements entre particuliers.",
+    "presentation": " J'ai occupé le rôle de développeur front-end sur le projet Kasa, en charge de concevoir une plateforme web moderne. Mon travail a impliqué l'utilisation de React pour le développement front-end et Node.js pour le back-end, en suivant les maquettes fournies par notre équipe de design.",
+    "overview": "Le projet visait à revitaliser la plateforme avec React pour améliorer l'expérience utilisateur sur différents appareils. J'ai introduit des animations CSS, un carrousel d'images, un système de collapse pour une navigation intuitive, et géré les annonces immobilières de manière dynamique, en utilisant Sass pour une stylisation avancée.",
+    "github": "https://github.com/LukmanBK/Projet_8",
+    "tags": [
+      "React",
+      "Node.js",
+      "Sass",
+      "Responsive Web Design",
+      "Figma",
+      "Animations CSS"
+    ],
+    "img_cover": "img/cover/kasa-agence.webp"
+  }
+]

@@ -10,7 +10,7 @@ header {
 }
 
 .heading-header {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Kaushan-Script", cursive;
   font-size: 2rem;
   font-weight: 700;
   color: #4d4d4d;
@@ -58,7 +58,6 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
     background: rgb(0, 0, 0, 0.9);
     position: absolute;
     top: 0;

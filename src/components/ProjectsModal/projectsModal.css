@@ -1,0 +1,68 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content p,
+.modal-content h2,
+.modal-content a {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+}
+
+.modal-content p {
+  padding-bottom: 1rem;
+}
+
+.close-button {
+  float: right;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 20px;
+}
+
+.tags-container {
+  margin-top: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 2px;
+  font-size: 0.8rem;
+}
+
+.github-link {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
