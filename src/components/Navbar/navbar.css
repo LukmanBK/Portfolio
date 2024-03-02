@@ -9,7 +9,7 @@ header {
 }
 
 .heading-header {
-  color: #eeeeee;
+  color: #944000;
   font-family: "Satisfy", sans-serif;
   font-size: 2rem;
   font-weight: 700;
@@ -17,11 +17,11 @@ header {
 }
 
 .heading-header.color {
-  color: #155568;
+  color: #003366;
 }
 
 .header-bg {
-  background-color: #f8d6ae;
+  background-color:#f5f5f5 ;
   transition: 0.5s;
   box-shadow: 3px 3px 3px #252a3482;
   padding-left: 20px;
@@ -36,8 +36,12 @@ header {
   color: #eeeeee;
 }
 
+.nav-link{
+  color: #944000;
+}
+
 .nav-link-color {
-  color: #155568;
+  color: #003366;
 }
 
 .nav-menu li a {
@@ -49,7 +53,7 @@ header {
 
 .nav-menu li a:hover {
   content: "";
-  background: #0099c3;
+  background: #cc5500;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,7 +69,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: #f5f5f5;
     position: absolute;
     left: -100%;
     z-index: -1;
@@ -90,12 +94,24 @@ header {
     z-index: 11;
     position: absolute;
     right: 20px;
-    color: #0099c3;
+    color: #cc5500;
     height: 20px;
     width: 20px;
     padding-right: 30px;
   }
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 
 @media screen and (max-width: 768px) {
   .nav-menu li a {
@@ -117,3 +133,5 @@ header {
     font-size: 1rem;
   }
 }
+
+

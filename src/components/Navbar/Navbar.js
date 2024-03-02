@@ -76,8 +76,10 @@ export const Navbar = () => {
           <a
             href="#contact"
             className={color ? "nav-link nav-link-color" : "nav-link"}
+            aria-label="Contact" 
           >
             <FaEnvelope />
+            <span className="visually-hidden">Contact</span>
           </a>
         </li>
       </ul>

@@ -2,53 +2,53 @@
   {
     "id": "1",
     "name": "HTML",
-    "title": "HTML",
+    "title": "logo HTML",
     "img": "/img/icons-skills/logo-html.webp"
   },
   {
     "id": "2",
     "name": "CSS",
-    "title": "CSS",
+    "title": "logo CSS",
     "img": "/img/icons-skills/logo-css.webp"
   },
   {
     "id": "3",
     "name": "JavaScript",
-    "title": "Javascript",
-    "img": "/img/icons-skills/logo-javascript.webp"
+    "title": "logo Javascript",
+    "img": "/img/icons-skills/logo-javascript.png"
   },
 
   {
     "id": "4",
     "name": "React",
-    "title": "React",
+    "title": "logo React",
     "img": "/img/icons-skills/logo-react.webp"
   },
 
   {
     "id": "5",
     "name": "Node js",
-    "title": "Node js",
+    "title": "logo Node js",
     "img": "/img/icons-skills/logo-nodejs.webp"
   },
 
   {
     "id": "6",
     "name": "Redux",
-    "title": "Redux",
+    "title": "logo Redux",
     "img": "/img/icons-skills/logo-redux.webp"
   },
 
   {
     "id": "7",
     "name": "Sass",
-    "title": "Sass",
+    "title": "logo Sass",
     "img": "/img/icons-skills/logo-sass.png"
   },
   {
     "id": "8",
     "name": "Vs code",
-    "title": "Visual Studio Code",
+    "title": "logo Visual Studio Code",
     "img": "/img/icons-skills/logo-vscode.webp"
   }
 ]

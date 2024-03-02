@@ -47,7 +47,7 @@ const Footer = () => {
                   marginRight: "1rem",
                 }}
               />
-              <span style={{ textDecoration: "underline" }}>
+              <span>
                 Lien vers mon Github
               </span>
             </a>

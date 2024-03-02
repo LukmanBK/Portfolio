@@ -5,7 +5,7 @@
   justify-content: center;
   margin: auto;
   padding: 40px;
-  background: #155568;
+  background: #003366;
 }
 
 .skills-title {
@@ -13,7 +13,7 @@
   text-align: center;
   font-size: 2.5rem;
   font-family: "Satisfy", sans-serif;
-  color: #ffd59d;
+  color: #F5F5F5;
 }
 
 .skills-container {
@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000000;
+  color: #cc5500;
 }
 
 .skill-card:hover .skill-description {
@@ -67,7 +67,7 @@
 }
 
 .skill-text {
-  color: #000000;
+  color: #F5F5F5;
   text-align: center;
 }
 
