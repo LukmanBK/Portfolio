@@ -17,9 +17,9 @@ export const Navbar = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <header className={color ? "header header-bg" : "header"}>
+    <header className={color ? "header colored-background" : "header"}>
       <a href="/">
-        <h1 className={color ? "heading-header color" : "heading-header"}>
+        <h1 className={color ? "title-header color" : "title-header"}>
           Portfolio
         </h1>
       </a>
@@ -33,10 +33,10 @@ export const Navbar = () => {
           </a>
         </li>
 
-        <li
+        <li  
           className={color ? "nav-link nav-link-color" : "nav-link"}
           onClick={handleClick}
-        >
+           >
           <a
             href="#about"
             className={color ? "nav-link nav-link-color" : "nav-link"}
@@ -83,7 +83,7 @@ export const Navbar = () => {
           </a>
         </li>
       </ul>
-      <div className="bars" onClick={handleClick}>
+      <div className="menu-toggle" onClick={handleClick}>
         {click ? <FaTimes /> : <FaBars />}
       </div>
     </header>
