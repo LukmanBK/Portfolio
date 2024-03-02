@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -32,6 +32,7 @@ export const Navbar = () => {
             Accueil
           </a>
         </li>
+
         <li
           className={color ? "nav-link nav-link-color" : "nav-link"}
           onClick={handleClick}
@@ -39,8 +40,9 @@ export const Navbar = () => {
           <a
             href="#about"
             className={color ? "nav-link nav-link-color" : "nav-link"}
+            onClick={handleClick}
           >
-            A propos
+            À propos
           </a>
         </li>
         <li
@@ -50,6 +52,7 @@ export const Navbar = () => {
           <a
             href="#skills"
             className={color ? "nav-link nav-link-color" : "nav-link"}
+            onClick={handleClick}
           >
             Compétences
           </a>
@@ -60,6 +63,7 @@ export const Navbar = () => {
         >
           <a
             href="#projects"
+            onClick={handleClick}
             className={color ? "nav-link nav-link-color" : "nav-link"}
           >
             Mes projets
@@ -77,6 +81,9 @@ export const Navbar = () => {
           </a>
         </li>
       </ul>
+      <div className="bars" onClick={handleClick}>
+        {click ? <FaTimes /> : <FaBars />}
+      </div>
     </header>
   );
 };

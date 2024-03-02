@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { RiFilePdf2Fill } from "react-icons/ri";
+ import { FaLocationDot } from "react-icons/fa6";
 import { FaGithub, FaMailBulk, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
@@ -51,15 +51,15 @@ const Footer = () => {
                 Lien vers mon Github
               </span>
             </a>
-            <a href="cv.pdf" target="_blank">
-              <RiFilePdf2Fill
+            <a>
+              <FaLocationDot
                 size={30}
                 style={{
                   color: "#EEEEEE",
                   marginRight: "1rem",
                 }}
               />
-              <span style={{ textDecoration: "underline" }}>Voir mon CV</span>
+              <span>Paris, 75014</span>
             </a>
           </div>
         </div>

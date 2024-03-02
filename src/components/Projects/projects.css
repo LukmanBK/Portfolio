@@ -10,7 +10,7 @@ section[data-section] {
 h2 {
   color: #155568;
   margin: 1.5rem 0;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .section-projects {
@@ -34,8 +34,9 @@ h2 {
   display: block;
   margin: 3rem auto 0;
   padding: 0.5rem 0.75rem;
-  background-color: #557c9e;
+  background-color: #155568;
   color: #ffeec4;
+  font-family: "Satisfy", sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -56,10 +57,15 @@ h2 {
   transform: translateX(-45%);
 }
 
+.title-projects {
+  padding-top: 3rem
+}
+
 /* Media queries */
 @media (max-width: 600px) {
   .grid-projects {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0 1rem;
   }
 }
 
@@ -78,18 +84,21 @@ h2 {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+ 
 }
+
+@media (max-width: 768px) {
+  .title-projects {
+  padding-top: 0;
+  }
 
 @media (min-width: 1024px) {
   section[data-section] {
     padding: 4rem 0 6rem;
   }
 
-  h2 {
-    margin-top: 1rem;
-  }
-
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
 }
