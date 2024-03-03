@@ -27,26 +27,19 @@
 
   {
     "id": "5",
-    "name": "Node js",
-    "title": "logo Node js",
-    "img": "img/icons-skills/logo-nodejs.webp"
-  },
-
-  {
-    "id": "6",
     "name": "Redux",
     "title": "logo Redux",
     "img": "img/icons-skills/logo-redux.webp"
   },
 
   {
-    "id": "7",
+    "id": "6",
     "name": "Sass",
     "title": "logo Sass",
     "img": "img/icons-skills/logo-sass.png"
   },
   {
-    "id": "8",
+    "id": "7",
     "name": "Vs code",
     "title": "logo Visual Studio Code",
     "img": "img/icons-skills/logo-vscode.webp"
