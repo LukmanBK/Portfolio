@@ -3,7 +3,7 @@
     "id": "1",
     "name": "HTML",
     "title": "logo HTML",
-    "img": "/img/icons-skills/logo-html.webp"
+    "img": "./img/icons-skills/logo-html.webp"
   },
   {
     "id": "2",

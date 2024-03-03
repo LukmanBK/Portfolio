@@ -1,7 +1,7 @@
-import React from 'react';
-import dataSkills from '../../data/skills.json';
-import { motion } from 'framer-motion';
-import './skills.css'; 
+import React from "react";
+import dataSkills from "../../data/skills.json";
+import { motion } from "framer-motion";
+import "./skills.css";
 
 const Skills = () => {
   const animationProject = {

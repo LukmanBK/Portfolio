@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
- import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 import { FaGithub, FaMailBulk, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
@@ -47,11 +47,13 @@ const Footer = () => {
                   marginRight: "1rem",
                 }}
               />
-              <span>
-                Lien vers mon Github
-              </span>
+              <span>Lien vers mon Github</span>
             </a>
-            <a href="https://www.google.com/maps/place/Paris+75014" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.google.com/maps/place/Paris+75014"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLocationDot
                 size={30}
                 style={{
