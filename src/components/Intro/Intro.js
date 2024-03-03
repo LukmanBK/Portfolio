@@ -9,7 +9,7 @@ const Intro = () => {
         <img
           className="intro-img"
           src={IntroImg}
-          alt="Image travail"
+          alt="developpeur qui code"
         />
       </div>
       <div className="content">

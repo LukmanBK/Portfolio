@@ -51,7 +51,7 @@ const Footer = () => {
                 Lien vers mon Github
               </span>
             </a>
-            <a>
+            <a href="https://www.google.com/maps/place/Paris+75014" target="_blank" rel="noopener noreferrer">
               <FaLocationDot
                 size={30}
                 style={{
