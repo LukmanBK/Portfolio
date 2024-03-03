@@ -9,46 +9,46 @@
     "id": "2",
     "name": "CSS",
     "title": "logo CSS",
-    "img": "/img/icons-skills/logo-css.webp"
+    "img": "./img/icons-skills/logo-css.webp"
   },
   {
     "id": "3",
     "name": "JavaScript",
     "title": "logo Javascript",
-    "img": "/img/icons-skills/logo-javascript.png"
+    "img": "./img/icons-skills/logo-javascript.png"
   },
 
   {
     "id": "4",
     "name": "React",
     "title": "logo React",
-    "img": "/img/icons-skills/logo-react.webp"
+    "img": "./img/icons-skills/logo-react.webp"
   },
 
   {
     "id": "5",
     "name": "Node js",
     "title": "logo Node js",
-    "img": "/img/icons-skills/logo-nodejs.webp"
+    "img": "./img/icons-skills/logo-nodejs.webp"
   },
 
   {
     "id": "6",
     "name": "Redux",
     "title": "logo Redux",
-    "img": "/img/icons-skills/logo-redux.webp"
+    "img": "./img/icons-skills/logo-redux.webp"
   },
 
   {
     "id": "7",
     "name": "Sass",
     "title": "logo Sass",
-    "img": "/img/icons-skills/logo-sass.png"
+    "img": "./img/icons-skills/logo-sass.png"
   },
   {
     "id": "8",
     "name": "Vs code",
     "title": "logo Visual Studio Code",
-    "img": "/img/icons-skills/logo-vscode.webp"
+    "img": "./img/icons-skills/logo-vscode.webp"
   }
 ]
