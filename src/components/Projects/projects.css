@@ -87,7 +87,7 @@ h2 {
  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .title-projects {
   padding-top: 0;
   }

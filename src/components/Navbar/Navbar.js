@@ -18,7 +18,7 @@ export const Navbar = () => {
 
   return (
     <header className={color ? "header colored-background" : "header"}>
-      <a href="/">
+      <a href="#accueil">
         <h1 className={color ? "title-header color" : "title-header"}>
           Portfolio
         </h1>
@@ -33,10 +33,10 @@ export const Navbar = () => {
           </a>
         </li>
 
-        <li  
+        <li
           className={color ? "nav-link nav-link-color" : "nav-link"}
           onClick={handleClick}
-           >
+        >
           <a
             href="#about"
             className={color ? "nav-link nav-link-color" : "nav-link"}
@@ -76,7 +76,7 @@ export const Navbar = () => {
           <a
             href="#contact"
             className={color ? "nav-link nav-link-color" : "nav-link"}
-            aria-label="Contact" 
+            aria-label="Contact"
           >
             <FaEnvelope />
             <span className="visually-hidden">Contact</span>
