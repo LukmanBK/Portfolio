@@ -40,7 +40,6 @@ export const Navbar = () => {
           <a
             href="#about"
             className={color ? "nav-link nav-link-color" : "nav-link"}
-            onClick={handleClick}
           >
             À propos
           </a>
@@ -52,7 +51,6 @@ export const Navbar = () => {
           <a
             href="#skills"
             className={color ? "nav-link nav-link-color" : "nav-link"}
-            onClick={handleClick}
           >
             Compétences
           </a>
@@ -63,7 +61,6 @@ export const Navbar = () => {
         >
           <a
             href="#projects"
-            onClick={handleClick}
             className={color ? "nav-link nav-link-color" : "nav-link"}
           >
             Mes projets

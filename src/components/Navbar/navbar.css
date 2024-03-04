@@ -8,6 +8,11 @@ header {
   z-index: 10;
 }
 
+.colored-background {
+  background-color:#f5f5f5 ;
+  transition: 0.5s;
+}
+
 .title-header {
   color: #944000;
   font-family: "Satisfy", sans-serif;
@@ -20,19 +25,12 @@ header {
   color: #003366;
 }
 
-.colored-background {
-  background-color:#f5f5f5 ;
-  transition: 0.5s;
-  box-shadow: 3px 3px 3px #252a3482;
-}
-
 .nav-menu {
   display: flex;
 }
 
 .nav-menu li {
   padding: 0 1rem;
-  color: #eeeeee;
 }
 
 .nav-link{
@@ -123,7 +121,7 @@ header {
     font-size: 1.5rem;
   }
 
-  .heading-header span {
+  .title-header span {
     font-size: 1.5rem;
   }
 

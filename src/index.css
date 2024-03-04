@@ -38,4 +38,8 @@ ul {
   transition: 0.3s;
 }
 
+.scrollHidden {
+  overflow: hidden;
+}
+
 
