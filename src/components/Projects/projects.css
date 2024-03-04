@@ -53,10 +53,6 @@ h2 {
   cursor: pointer;
 }
 
-.modal-open .grid-projects {
-  transform: translateX(-45%);
-}
-
 .title-projects {
   padding-top: 3rem
 }

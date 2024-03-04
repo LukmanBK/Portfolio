@@ -4,7 +4,6 @@ import { IoCloseOutline } from "react-icons/io5";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const ProjectsModal = ({ data, isOpen, setIsOpen }) => {
-  console.log(data);
   if (!isOpen) return null;
 
   return (

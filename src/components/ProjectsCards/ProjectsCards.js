@@ -20,18 +20,6 @@ const ProjectsCards = ({ img, title, github, onClick, id }) => {
     }),
   };
 
-  const handleClick = () => {
-    if (window.innerWidth > 1024) {
-      onClick();
-    }
-  };
-
-  const handleClickMobile = () => {
-    if (window.innerWidth < 1024) {
-      onClick();
-    }
-  };
-
   return (
     <motion.div
       variants={animationProject}
@@ -41,8 +29,8 @@ const ProjectsCards = ({ img, title, github, onClick, id }) => {
       viewport={{ once: true }}
       className="project-card"
     >
-      <img src={img} alt="" onClick={handleClick} className="project-image" />
-      <div onClick={handleClickMobile} className="overlay">
+      <img src={img} alt="" onClick={onClick} className="project-image" />
+      <div onClick={onClick} className="overlay">
         <h3 className="project-title">{title}</h3>
 
         <div className="icons-container">
@@ -55,7 +43,7 @@ const ProjectsCards = ({ img, title, github, onClick, id }) => {
               href={github}
               title="Lien Github"
               target="_blank"
-              rel="noopener noreferrer" // Pour des raisons de sécurité
+              rel="noopener noreferrer"
               className="icon github-icon"
             >
               <BsGithub />

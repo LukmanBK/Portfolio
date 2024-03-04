@@ -25,10 +25,7 @@ const Projects = () => {
 
   const handleProjectSelect = (data) => {
     setSelectedProject(data);
-
-    setTimeout(() => {
-      setIsModalOpen(true);
-    }, 0);
+    setIsModalOpen(true);
   };
 
   const handleShowMoreProjects = () => {
@@ -38,7 +35,7 @@ const Projects = () => {
   return (
     <section data-section id="projects" className="section-projects">
       <h2 className="title-projects">Mes projets</h2>
-      <div className={`grid-projects ${isModalOpen ? "modal-open" : ""}`}>
+      <div className="grid-projects">
         {allProjects.slice(0, projectsToShow).map((datas, id) => (
           <ProjectsCards
             key={id}
