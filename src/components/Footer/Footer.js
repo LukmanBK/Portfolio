@@ -61,7 +61,7 @@ const Footer = () => {
                   marginRight: "1rem",
                 }}
               />
-              <span>Paris, 75014</span>
+              <span>Paris</span>
             </a>
           </div>
         </div>

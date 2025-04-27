@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import "./skills.css";
 
 const Skills = () => {
+  
   const animationProject = {
     initial: {
       opacity: 0,

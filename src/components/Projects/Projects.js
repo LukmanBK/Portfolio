@@ -36,13 +36,13 @@ const Projects = () => {
     <section data-section id="projects" className="section-projects">
       <h2 className="title-projects">Mes projets</h2>
       <div className="grid-projects">
-        {allProjects.slice(0, projectsToShow).map((datas, id) => (
+        {allProjects.slice(0, projectsToShow).map((data, id) => (
           <ProjectsCards
             key={id}
-            img={datas.img_cover}
-            title={datas.title}
-            github={datas.github}
-            onClick={() => handleProjectSelect(datas)}
+            img={data.img_cover}
+            title={data.title}
+            github={data.github}
+            onClick={() => handleProjectSelect(data)}
             id={id}
           />
         ))}
